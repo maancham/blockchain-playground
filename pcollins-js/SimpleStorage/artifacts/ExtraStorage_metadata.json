@@ -1,0 +1,154 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_favNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "favNumber",
+				"outputs": [
+					{
+						"internalType": "uint128",
+						"name": "",
+						"type": "uint128"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameToFavoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint128",
+						"name": "",
+						"type": "uint128"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint128",
+						"name": "_favNumber",
+						"type": "uint128"
+					}
+				],
+				"name": "storeFav",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/extra_storage.sol": "ExtraStorage"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/extra_storage.sol": {
+			"keccak256": "0x4dd5f925205a8b720749d83abe58a2b4766030a725f7fa046334478d8320f8c3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fd2f66421d93f31322323ba414563db4e59f916b7641aa107e9eec16a5cc2721",
+				"dweb:/ipfs/QmeNTZ2x6vjdP9Nk3JA8P4qvZGqHafwxP6cx4p41F2hNRK"
+			]
+		},
+		"contracts/simple_storage.sol": {
+			"keccak256": "0xb23c1c4f4540da7748ccfd9b19a897b1776052816de9b07f05161f7062646b2b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d0a1e6b33e27d9a5b2e7cb32b7a77b5bb48a7f6fd13cfab3c7282216e7c04527",
+				"dweb:/ipfs/QmNXERDTcGKBVmMeo1dNehrjXR6ejBESjNxFz87ab3ATdS"
+			]
+		}
+	},
+	"version": 1
+}
